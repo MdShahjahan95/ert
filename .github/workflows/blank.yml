@@ -1,0 +1,38 @@
+provider "azurerm" {
+features {}
+}
+resource "azurerm_resource_group" "mds1" {
+  name     = "mds1"
+  location = "Central India"
+  tags = {
+    enviroment= "test1"
+  }
+} 
+resource "azurerm_resource_group" "mds2" {
+  name     = "mds2"
+  location = "Central India"
+  tags = {
+    enviroment= "test1"
+  }
+} 
+resource "azurerm_resource_group" "mds3" {
+  name     = "mds3"
+  location = "Central India"
+  tags = {
+    enviroment= "test1"
+  }
+} 
+resource "azurerm_resource_group" "mds4" {
+  name     = "mds4"
+  location = "Central India"
+  tags = {
+    enviroment= "test1"
+  }
+} 
+resource "azurerm_resource_group" "mds5" {
+  name     = "mds5"
+  location = "Central India"
+  tags = {
+    enviroment= "test1"
+  }
+} 
